@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin_android_mvp", "xamarin_android_mvp\xamarin_android_mvp.csproj", "{707D6ED2-31EC-41D6-AB5D-A5A0D54E91B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aarBinding", "aarBinding\aarBinding.csproj", "{3C474D82-CE63-48FA-8BA8-F8E481F15565}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{707D6ED2-31EC-41D6-AB5D-A5A0D54E91B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{707D6ED2-31EC-41D6-AB5D-A5A0D54E91B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{707D6ED2-31EC-41D6-AB5D-A5A0D54E91B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{707D6ED2-31EC-41D6-AB5D-A5A0D54E91B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C474D82-CE63-48FA-8BA8-F8E481F15565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C474D82-CE63-48FA-8BA8-F8E481F15565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C474D82-CE63-48FA-8BA8-F8E481F15565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C474D82-CE63-48FA-8BA8-F8E481F15565}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
