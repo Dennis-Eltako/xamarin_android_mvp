@@ -112,6 +112,10 @@
       <Project>{3C474D82-CE63-48FA-8BA8-F8E481F15565}</Project>
       <Name>aarBinding</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\xamarin_business_logic\xamarin_business_logic\xamarin_business_logic.csproj">
+      <Project>{7A7914C6-5EBB-46FB-89B6-8869F870212A}</Project>
+      <Name>xamarin_business_logic</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

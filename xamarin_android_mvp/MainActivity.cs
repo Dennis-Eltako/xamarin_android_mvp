@@ -6,6 +6,7 @@ using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using xamarin_business_logic;
 
 namespace xamarin_android_mvp
 {
@@ -24,6 +25,10 @@ namespace xamarin_android_mvp
 
             FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             fab.Click += FabOnClick;
+
+            TextView textView = FindViewById<TextView>(Resource.Id.roomLabel);
+            textView.Text = BusinessLogic.getRoom();
+                    
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)

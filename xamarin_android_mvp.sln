@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin_android_mvp", "xama
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aarBinding", "aarBinding\aarBinding.csproj", "{3C474D82-CE63-48FA-8BA8-F8E481F15565}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin_business_logic", "..\xamarin_business_logic\xamarin_business_logic\xamarin_business_logic.csproj", "{7A7914C6-5EBB-46FB-89B6-8869F870212A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{3C474D82-CE63-48FA-8BA8-F8E481F15565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C474D82-CE63-48FA-8BA8-F8E481F15565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C474D82-CE63-48FA-8BA8-F8E481F15565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7914C6-5EBB-46FB-89B6-8869F870212A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7914C6-5EBB-46FB-89B6-8869F870212A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7914C6-5EBB-46FB-89B6-8869F870212A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7914C6-5EBB-46FB-89B6-8869F870212A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
